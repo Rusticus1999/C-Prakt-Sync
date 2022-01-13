@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+//#pragma pack(1)//Albtraum für RISC Prozessoren 
+
+struct Geo
+{
+	double dLatitude;//8
+	double dLongitude;//8
+	float fAltitude;//4/8
+};
+
+struct Messwert
